@@ -111,7 +111,7 @@ function setup() {
   checkFill = select("#blackFill");
   checkOutline = select("#blackOutline");
   slider3Label = select("#slider3label");
-  slider3Label.html(`<b>Font size</b> ${fSize} pt`);
+  slider3Label.html(`<b>Mida</b> ${fSize} pt`);
   drawText();
   loadJSON(url, gotData);
 }
