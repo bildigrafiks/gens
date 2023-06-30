@@ -12,21 +12,17 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="https://unpkg.com/p5.js-svg@1.3.1"></script>
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
-    <link rel="shortcut icon" href="img/favicon.ico?">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   </head>
   <body>
     <main>
       <aside>
-        <div id="topbutton">
-        <p><a href="https://sites.google.com/associaciogens.org/hola/" target="blank_"><b>Associació Gens</b></a><br/></p><br>
-        <a href="SVG.html"><button type="button">Versió SVG</button></a>
-        </div>
-        <p class="topP">
+        <p><b>Associació Gens</b><br /></p><br>
+        <p>
           <b>Experimentació <br />Naturisme <br />Sostenibilitat</b>
         </p>
-        <p id="descriptionText" class="topP">
+        <p id="descriptionText">
           <b><a href="https://openweathermap.org/technology" target="_blank">Mediona, Alt Penedès</a></b>. Lorem Ipsum.<br />Long:0.0000 Lat: 0.0000
           Temp: 00 ℃. Humidity: 00 %.<br />Cloud coverage: 00 %. Wind speed:
           0.00 m/s.
@@ -45,6 +41,8 @@
             <button type="button" onclick="updateVortex()">Redibuixa</button>
             <button type="button" onclick="saveCanvas()">Guardar</button>
           </div>
+          <div id="bottomLeft">
+            <div id="bL1">
           <input
             type="checkbox"
             id="blackOutline"
@@ -61,6 +59,11 @@
             onchange="changeFill()"
           />
           <label for="blackFill">Interior en negre</label><br />
+          </div>
+          <div id="bL2">
+          <a href="SVG.html"><button type="button">Versió SVG</button></a>
+          </div>
+</div>
         </section>
         <section>
           <div>
