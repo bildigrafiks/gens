@@ -91,7 +91,6 @@ function setup() {
 
   let d = new Date();
 
-  document.getElementById("insertDate").innerHTML = `Ultima actualización: ${d.getDate()}.${d.getMonth()}.${d.getFullYear()}`;
   frameRate(30);
   colorMode(RGB);
 
