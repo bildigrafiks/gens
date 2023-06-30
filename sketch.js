@@ -89,8 +89,6 @@ function setup() {
     windowHeight
   );
 
-  let d = new Date();
-
   frameRate(30);
   colorMode(RGB);
 
@@ -654,10 +652,7 @@ function updateSlider6() {
         windowHeight
         //,SVG
       );
-    
-      let d = new Date();
-    
-      document.getElementById("insertDate").innerHTML = `Ultima actualización: ${d.getDate()}.${d.getMonth()}.${d.getFullYear()}`;
+        
       frameRate(30);
       colorMode(RGB);
     
