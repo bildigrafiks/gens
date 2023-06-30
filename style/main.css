@@ -62,7 +62,7 @@ section{
   width: 33%;
 }
 
-div:not(#topbutton) {
+div:not(#bottomLeft):not(#bL1):not(#bL2) {
   display: flex;
   align-items: left;
   margin-bottom: 10px;
@@ -238,19 +238,10 @@ aside {
   justify-content: space-between;
 }
 
-
-#topbutton{
-  width: 33%;
-}
-
-#topbutton button{
-  float: left;
-  margin-left: 0px;
-}
-
-
 p{
   z-index: 10;
+  height: 100%;
+  width: 33%;
   margin: auto;
   font-family: AntiqueOlive, monospace;
   font-weight: 100;
@@ -261,11 +252,6 @@ p{
   text-transform: uppercase;
 }
 
-.topP {
-  height: 100%;
-  width: 33%;
-}
-
 b{
   font-weight: normal;
 }
@@ -273,4 +259,14 @@ b{
 a{
   color: rgba(45, 45, 45);
   text-decoration-thickness: from-font;
+}
+
+#bottomLeft{
+  display: flex;
+  align-items: left;
+  margin-bottom: 10px;
+}
+
+#bL1{
+  width: 200px;
 }
