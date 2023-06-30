@@ -90,7 +90,6 @@ function setup() {
     //,SVG
   );
 
-  let d = new Date();
 
   frameRate(30);
   colorMode(RGB);
