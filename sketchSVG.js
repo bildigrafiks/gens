@@ -91,7 +91,7 @@ function setup() {
   cnv = createCanvas(
     windowWidth,
     windowHeight
-    //,SVG
+    ,SVG
   );
 
   let d = new Date();
