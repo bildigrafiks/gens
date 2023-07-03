@@ -593,7 +593,7 @@ function updateSlider6() {
   loop();
 }
 
-function saveCanvas() {
+function saveThis() {
   save();
 }
 
